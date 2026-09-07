@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0b0b" />
+    <meta name="description" content="Dyaana Brands — a women-first retail destination for black-and-white fashion, jewellery, and premium Relove occasion wear." />
+    <title>Dyaana Brands — Monochrome Fashion & Relove</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to shopping</a>
+    <div class="preview-bar">
+      <p><span class="live-dot" aria-hidden="true"></span><strong>Store preview</strong> — original Dyaana product photography will be added before launch</p>
+      <a href="#launch">Get launch updates</a>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="header-inner shell-wide">
+        <button class="icon-button menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+        <a class="wordmark" href="#top" aria-label="Dyaana Brands home"><strong>Dyaana</strong><span>BRANDS</span></a>
+        <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+          <a href="#shop" data-filter-link="women">Women</a><a href="#shop" data-filter-link="jewellery">Jewellery</a>
+          <a href="#relove" class="nav-relove">Relove</a><a href="#shop" data-filter-link="men">Men</a>
+          <a href="#shop" data-filter-link="kids">Kids</a><a href="#sell">Sell with us</a>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-button search-button" id="searchButton" aria-label="Search the catalogue"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg></button>
+          <button class="saved-button" id="savedButton" aria-label="Show saved pieces">Saved <span id="savedCount">0</span></button>
+          <button class="bag-button" id="bagButton" aria-label="Open shopping bag">Bag <span id="bagCount">0</span></button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero shell-wide" aria-labelledby="heroTitle">
+        <div class="hero-copy-block">
+          <p class="eyebrow">The Dyaana point of view · 01</p>
+          <h1 id="heroTitle">A sharper way<br />to wear <em>less.</em></h1>
+          <p class="hero-copy">Women-first clothing in black and white. Jewellery with presence. Exceptional occasion wear, thoughtfully Reloved.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#shop" data-filter-link="women">Shop the women’s edit</a><a class="text-link" href="#relove">Discover Relove <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-index" aria-label="Dyaana collections"><span><b>01</b> Monochrome</span><span><b>02</b> Jewellery</span><span><b>03</b> Relove</span></div>
+        </div>
+        <div class="hero-stage" aria-label="Reserved space for Dyaana's original campaign media">
+          <div class="stage-topline"><span>Campaign 001</span><span>Women first</span></div>
+          <div class="stage-word" aria-hidden="true">MONO</div>
+          <div class="media-promise"><span class="media-number">01 / 04</span><div><strong>Original media reserved</strong><small>Dyaana campaign photograph or video</small></div></div>
+          <div class="stage-caption"><span>Black</span><i></i><span>White</span></div>
+        </div>
+      </section>
+
+      <section class="service-strip" aria-label="Shopping principles"><div class="shell-wide">
+        <p><span>01</span><strong>Retail only</strong><small>Pieces selected from trusted suppliers</small></p>
+        <p><span>02</span><strong>Quality checked</strong><small>Inspected before dispatch</small></p>
+        <p><span>03</span><strong>Clear policies</strong><small>Returns shown before payment</small></p>
+        <p><span>04</span><strong>Relove protected</strong><small>Condition verified by Dyaana</small></p>
+      </div></section>
+
+      <section class="worlds shell-wide" aria-labelledby="worldsTitle">
+        <div class="section-heading"><div><p class="eyebrow">Enter the collection</p><h2 id="worldsTitle">Four ways into Dyaana.</h2></div><p>Every media frame is ready for imagery owned and produced by Dyaana.</p></div>
+        <div class="world-grid">
+          <a class="world-card world-women" href="#shop" data-filter-link="women"><span class="world-no">01</span><div class="world-type" aria-hidden="true">W</div><div class="world-copy"><small>Black / White / Both</small><h3>Women</h3><span>Explore the edit ↗</span></div></a>
+          <a class="world-card world-relove" href="#relove"><span class="world-no">02</span><div class="world-type" aria-hidden="true">R</div><div class="world-copy"><small>Premium pre-owned</small><h3>Relove</h3><span>One-of-one occasion wear ↗</span></div></a>
+          <a class="world-card world-jewellery" href="#shop" data-filter-link="jewellery"><span class="world-no">03</span><div class="world-type" aria-hidden="true">J</div><div class="world-copy"><small>The finishing detail</small><h3>Jewellery</h3><span>View collection ↗</span></div></a>
+          <a class="world-card world-family" href="#shop" data-filter-link="men"><span class="world-no">04</span><div class="world-type" aria-hidden="true">M/K</div><div class="world-copy"><small>Limited capsules</small><h3>Men + Kids</h3><span>See what’s coming ↗</span></div></a>
+        </div>
+      </section>
+
+      <section class="shop shell-wide" id="shop" aria-labelledby="shopTitle">
+        <div class="shop-head"><div><p class="eyebrow">Catalogue preview</p><h2 id="shopTitle">The first Dyaana edit.</h2></div><p class="shop-intro">Sample products and prices for layout review. Replace them with approved inventory before launch.</p></div>
+        <div class="catalogue-tools">
+          <div class="filter-row" role="group" aria-label="Filter products"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="women">Women</button><button class="filter" data-filter="jewellery">Jewellery</button><button class="filter" data-filter="men">Men</button><button class="filter" data-filter="kids">Kids</button></div>
+          <div class="catalogue-meta"><span id="resultCount">0 pieces</span><span>Preview catalogue</span></div>
+        </div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="relove-section" id="relove" aria-labelledby="reloveTitle">
+        <div class="relove-media" aria-label="Reserved space for photographs of the actual Relove garment">
+          <div class="relove-rail"><span>Actual piece</span><span>All colours welcome</span></div><div class="relove-monogram" aria-hidden="true">R</div>
+          <div class="relove-media-note"><strong>One piece.<br />Photographed honestly.</strong><small>Front · Back · Detail · Every disclosure</small></div>
+        </div>
+        <div class="relove-content">
+          <p class="eyebrow gold">Relove by Dyaana · 02</p><h2 id="reloveTitle">The dress was worn once.<br />Its story wasn’t.</h2>
+          <p class="relove-lead">Premium wedding and occasion wear receives a careful second chapter. Dyaana physically receives, inspects, cleans, measures and photographs every accepted piece.</p>
+          <div class="relove-spec"><p><span>Condition</span><strong>Unworn to excellent</strong></p><p><span>Verification</span><strong>Handled by Dyaana</strong></p><p><span>Buyer protection</span><strong>3-day return window</strong></p><p><span>Purchase</span><strong>Prepaid only</strong></p></div>
+          <div class="hero-actions"><button class="button button-gold" id="relovePreviewButton">Preview a Relove piece</button><a class="text-link light-link" href="#sell">Sell an occasion outfit <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="manifesto shell-wide">
+        <div class="manifesto-mark"><img src="assets/dyaana-logo.webp" alt="Dyaana Brands logo" loading="lazy" /></div>
+        <div class="manifesto-copy"><p class="eyebrow">The idea</p><blockquote>“Less colour is not less expression.”</blockquote><p>Dyaana brings a deliberate retail edit to women first: black-and-white clothing with clarity, jewellery with character, and premium occasion wear worth wearing again.</p><div class="manifesto-facts"><span><b>New clothing</b>Black + white only</span><span><b>Relove</b>All colours accepted</span><span><b>Focus</b>Women first</span></div></div>
+      </section>
+
+      <section class="sell-section" id="sell" aria-labelledby="sellTitle"><div class="shell-wide sell-inner">
+        <div class="sell-copy"><p class="eyebrow gold">Sell with Relove · 03</p><h2 id="sellTitle">Make room.<br />Keep the meaning.</h2><p>For premium wedding and occasion wear in unworn, like-new or excellent condition, with expected resale value of ₹7,500 or more.</p><button class="button button-light" id="sellButton">Check eligibility</button></div>
+        <ol class="steps"><li><span>01</span><div><strong>Tell us about it</strong><p>Share the garment type, condition and purchase details.</p></div></li><li><span>02</span><div><strong>Send it to Dyaana</strong><p>We inspect, clean, measure, photograph and price accepted pieces.</p></div></li><li><span>03</span><div><strong>Receive your share</strong><p>You receive 70% after the buyer’s return window; Dyaana keeps 30%.</p></div></li></ol>
+      </div></section>
+
+      <section class="launch shell-wide" id="launch"><div><p class="eyebrow">Launch notes</p><h2>See the originals first.</h2></div><div class="launch-copy"><p>Join when the real collection, prices and Dyaana-produced campaign media are ready.</p><form id="newsletterForm" class="newsletter-form"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Email address" required /><button type="submit">Preview sign-up</button></form><small>Interface preview only — email storage will be connected before launch.</small></div></section>
+    </main>
+
+    <footer>
+      <div class="shell-wide footer-top"><div><a class="wordmark footer-wordmark" href="#top"><strong>Dyaana</strong><span>BRANDS</span></a><p>Black. White. Beautifully Reloved.</p><address class="footer-contact"><span>Customer care</span><a href="mailto:dyaanabrands@gmail.com">dyaanabrands@gmail.com</a></address></div><div class="footer-links"><strong>Shop</strong><a href="#shop" data-filter-link="women">Women</a><a href="#shop" data-filter-link="jewellery">Jewellery</a><a href="#relove">Relove</a></div><div class="footer-links"><strong>Information</strong><a href="#site-note">Shipping</a><a href="#site-note">Returns</a><a href="mailto:dyaanabrands@gmail.com">Contact</a></div><div class="footer-links"><strong>Follow</strong><a href="#site-note">Instagram</a><a href="#site-note">WhatsApp</a></div></div>
+      <div class="shell-wide footer-bottom" id="site-note"><span>© 2026 Dyaana Brands</span><span>Preview storefront · Checkout, forms, policies and contact links must be connected before launch</span></div>
+    </footer>
+
+    <nav class="mobile-dock" aria-label="Mobile navigation"><a href="#top"><span>⌂</span>Home</a><a href="#shop"><span>□</span>Shop</a><a href="#relove"><span>R</span>Relove</a><button id="mobileSavedButton"><span>♡</span>Saved <b id="mobileSavedCount">0</b></button><button id="mobileBagButton"><span>▱</span>Bag <b id="mobileBagCount">0</b></button></nav>
+    <noscript><div class="noscript-note">Please enable JavaScript to use product filters, quick view, saved items and the preview bag.</div></noscript>
+    <div class="overlay" id="overlay" hidden></div>
+
+    <aside class="drawer bag-drawer" id="bagDrawer" aria-labelledby="bagTitle" aria-hidden="true">
+      <div class="drawer-head"><div><p class="eyebrow">Preview bag</p><h2 id="bagTitle">Your selection</h2></div><button class="close-button" data-close aria-label="Close bag">×</button></div>
+      <div class="bag-items" id="bagItems"></div><div class="empty-state" id="bagEmpty"><span>00</span><p>Your bag is waiting for a Dyaana piece.</p><a href="#shop" class="text-link" data-close>Explore the edit ↗</a></div>
+      <div class="bag-summary" id="bagSummary" hidden><div><span>Sample subtotal</span><strong id="bagSubtotal">₹0</strong></div><p>Preview only. Shipping, payment and stock validation will be connected before launch.</p><button class="button button-dark full" id="checkoutButton">Checkout integration pending</button></div>
+    </aside>
+
+    <section class="search-panel" id="searchPanel" aria-label="Product search" aria-hidden="true"><div class="search-inner shell-wide"><div class="search-top"><p class="eyebrow">Search Dyaana</p><button class="close-button" data-close aria-label="Close search">×</button></div><label for="searchInput">Find your next piece.</label><input id="searchInput" type="search" placeholder="Try “black dress” or “earrings”" autocomplete="off" /><div class="search-results" id="searchResults">Search women, jewellery, men and kids</div></div></section>
+
+    <section class="modal quick-modal" id="quickModal" aria-labelledby="quickTitle" aria-hidden="true"><button class="close-button modal-close" data-close aria-label="Close quick view">×</button><div class="quick-layout"><div class="quick-media" id="quickMedia"></div><div class="quick-copy"><p class="eyebrow" id="quickType"></p><h2 id="quickTitle"></h2><p class="quick-price" id="quickPrice"></p><p id="quickDescription"></p><div class="size-picker" id="sizePicker"><span>Select a size</span><div><button data-size="XS">XS</button><button data-size="S">S</button><button data-size="M">M</button><button data-size="L">L</button><button data-size="XL">XL</button></div></div><button class="button button-dark full" id="quickAddButton">Add to preview bag</button><ul class="quick-notes"><li>Sample product for interface review</li><li>Original media and final details pending</li></ul></div></div></section>
+
+    <section class="modal" id="sellModal" aria-labelledby="sellModalTitle" aria-hidden="true"><button class="close-button modal-close" data-close aria-label="Close form">×</button><p class="eyebrow gold">Relove eligibility preview</p><h2 id="sellModalTitle">Tell us about your outfit.</h2><p>This is a form preview and does not transmit or save data. Acceptance will require physical inspection by Dyaana.</p><form id="reloveForm" class="relove-form"><label>Full name<input name="name" required /></label><label>Mobile number<input name="mobile" type="tel" inputmode="numeric" required /></label><label>Garment type<select name="type" required><option value="">Choose one</option><option>Saree</option><option>Lehenga</option><option>Gown</option><option>Anarkali / festive suit</option></select></label><label>Condition<select name="condition" required><option value="">Choose one</option><option>Unworn</option><option>Like new</option><option>Excellent</option></select></label><label>Expected resale value<input name="value" type="number" min="7500" placeholder="₹7,500 or more" required /></label><button class="button button-gold full" type="submit">Preview eligibility result</button></form></section>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
